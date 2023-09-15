@@ -1,4 +1,7 @@
-![Rate My Craft!](/src/assets/logo.png "Rate My Craft Logo")
+<div align="center">
+<img src="/src/assets/logo.png" alt="Rate My Craft Logo" width="auto" height="200" />
+</div>
+
 # Rate My Craft
 
 Rate My Craft is a simple demo app for rating and reviewing various craft products and services. It is built with [Outerbase](https://outernase.com) and [Vuetify](https://vuetifyjs.com), showcasing how quickly you can set up a backend with Outerbase, especially for your MVP.
@@ -13,9 +16,13 @@ Rate My Craft is a web application that allows users to rate and review differen
 - A beautiful User-friendly interface designed with Vuetify ❤️.
 - Backend powered by Outerbase for rapid MVP development.
 
-![Rate My Craft!](/src/assets/screenshots/home.png "Rate My Craft home")
-![Rate My Craft!](/src/assets/screenshots/view-ratings.png "Rate My Craft view")
-![Rate My Craft!](src/assets/screenshots/rate.png "Rate My Craft rate")
+<div align="center">
+<img src="/src/assets/screenshots/home.png" alt="Rate My Craft Logo" width="auto" height="800" />
+</div>
+<div align="center">
+<img src="/src/assets/screenshots/view-ratings.png" alt="Rate My Craft Logo" width="auto" height="600" />
+<img src="/src/assets/screenshots/rate.png" alt="Rate My Craft Logo" width="auto" height="600" />
+</div>
 
 ## Installation
 
