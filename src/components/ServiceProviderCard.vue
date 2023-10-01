@@ -17,7 +17,7 @@
           <v-rating :model-value="provider.average_rating" color="orange" density="comfortable" half-increments readonly
             size="small" style="align-items: center; margin-top: 0px;"></v-rating>
 
-          <div class="text-grey ms-4" style="align-items: center; margin-top: 5px;">
+          <div class="text-grey mx-1 hide-on-small-screen" style="align-items: center; margin-top: 5px;">
             {{ provider.average_rating }} ({{ provider.total_ratings }})
           </div>
 
@@ -61,6 +61,16 @@
 .rating-row {
   height: 30px;
   flex: 0 0 auto !important;
+}
+.hide-on-small-screen {
+  display: none;
+}
+
+@media screen and (min-width: 300px) {
+  .hide-on-small-screen {
+    display: inline-block;
+    /* background-color: red; */
+  }
 }
 </style>
 

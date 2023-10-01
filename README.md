@@ -46,7 +46,7 @@ To run this project locally, follow these steps:
    npm install
    ```
 
-4. Configure your Outerbase credentials and environment settings as described in the [Outerbase documentation](https://outerbase.com/docs).
+4. Configure your Outerbase credentials and environment settings as described in the [Outerbase documentation](https://docs.outerbase.com).
 
 5. Start the application:
 

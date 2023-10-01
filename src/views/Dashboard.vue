@@ -50,8 +50,6 @@ export default {
 
     if (city) {
       apiUrl += `?city=${city}`;
-    } else {
-      apiUrl += `?city=${encodeURIComponent('%')}`;
     }
 
     axios.get(apiUrl)
